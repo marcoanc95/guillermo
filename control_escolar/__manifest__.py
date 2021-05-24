@@ -23,6 +23,7 @@
 
     # always loaded
     'data': [
+        'data/ir_sequence_data.xml',
         'security/ir.model.access.csv',
         'views/res_alumno_menu.xml',
         'views/res_alumno.xml',
