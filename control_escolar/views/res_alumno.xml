@@ -1,0 +1,39 @@
+<odoo>
+    <data>
+
+        <record id="res_alumno_tree" model="ir.ui.view">
+            <field name="name">res.alumno.tree</field> 
+            <field name="model">res.alumno</field>
+            <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="edad"/>
+                <field name="promedio"/>
+            </tree>
+            </field> 
+        </record>
+
+        <record id="res_alumno_form" model="ir.ui.view"> 
+            <field name="name">res.alumno.form</field> 
+            <field name="model">res.alumno</field>
+            <field name="arch" type="xml">
+                <form string="Número de servicio">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <group>
+                                <field name="edad"/>
+                            </group>
+
+                            <group>
+                                <field name="promedio"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field> 
+        </record>
+    </data>
+</odoo>
