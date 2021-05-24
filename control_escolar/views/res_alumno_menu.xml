@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="control_escolar.res_alumno_menu" model="ir.ui.menu">
+        <field name="action" eval="False"/>
+        <field name="active" eval="True"/>
+        <field name="groups_id" eval="[(6, 0, [])]"/>
+        <field name="name">Control escolar</field>
+        <field name="parent_id" eval="False"/>
+        <field name="sequence">8</field>
+        <field name="web_icon">fa fa-cubes,#FFFFFF,#58a177</field>
+    </record>
+</odoo>
